@@ -17,15 +17,7 @@ public class StartPage extends World
     {    
         super(800, 600, 1); 
         
-        prepare();
-        
         addObject(new MenuBoy(), getWidth()-350, getHeight()-80);
         addObject(new Start(), 420, 350);
-        
-    }
-    
-    public void prepare(){
-        Title title = new Title();
-        addObject(title, 400, 300);
     }
 }

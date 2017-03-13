@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class N1 extends Back
+public class N1 extends Next
 {
     /**
      * Act - do whatever the N1 wants to do. This method is called whenever
@@ -20,7 +20,7 @@ public class N1 extends Back
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new EndPage());
+            Greenfoot.setWorld(new GameWorld2());
         }
     }    
 }

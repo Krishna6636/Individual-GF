@@ -25,8 +25,8 @@ public class GameWorld3 extends World
     {    
         super(800, 600, 1); 
         
-        addObject(new N3(), 750, 30);
-        addObject(new B4(), 50, 30);
+        addObject(new N1(), 750, 30);
+        addObject(new B2(), 50, 30);
         addObject(new Restart3(), 50, 550);
         addObject(new Boy(), getWidth()-700, getHeight()-232);
         addObject(new C1(), getWidth()-740, getHeight()-115);

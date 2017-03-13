@@ -19,12 +19,12 @@ public class EndPage extends World
         
         addObject(new Menu(), 300, 400);
         addObject(new End(), 500, 400);
-        addObject(new MenuBoy(), getWidth()-350, getHeight()-80);
     }
     
     public void act() {
-        showText("                                 " + GameWorld1.result, 400, 135);
-        showText("                                 " + GameWorld2.result, 400, 210);
-        showText("                                 " + GameWorld3.result, 400, 285);
+        showText("Game Over!", 400, 20);
+        showText("Easy!    Score : " + GameWorld1.result, 400, 120);
+        showText("Normal!  Score : " + GameWorld2.result, 400, 200);
+        showText("Hard!    Score : " + GameWorld3.result, 400, 280);
     }
 }

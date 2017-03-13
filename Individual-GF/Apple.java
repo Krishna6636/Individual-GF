@@ -25,8 +25,6 @@ public class Apple extends Actor
         if(isTouching(Boy.class)) {
             getWorld().removeObject(this);
             GameWorld1.result++;
-            GameWorld2.result++;
-            GameWorld3.result++;
         }
         else if(isAtEdge()) {
             getWorld().removeObject(this);
