@@ -17,7 +17,7 @@ public class GameWorld1 extends World
     EndPage scoreBoard = new EndPage();
     public static int result = 0;
     public static int select = 0;
-    public static int timer = 60000;
+    public static int timer = 240000;
     
     int time;
     
@@ -54,7 +54,7 @@ public class GameWorld1 extends World
     public void scoring() {
         showText("Score : " + result, 650, 20);
         
-        for(int i=30; i>0; i--) {
+        for(int i=35; i>0; i--) {
             showText("Time : " + (int)(timer/2000), 150, 20);
             timer--;
         }

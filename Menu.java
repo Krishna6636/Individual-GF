@@ -21,6 +21,15 @@ public class Menu extends Button
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new MenuPage());
+            GameWorld2.result = 0;
+            GameWorld2.timer = 60000;
+            GameWorld2.select = 0;
+            GameWorld1.result = 0;
+            GameWorld1.timer = 60000;
+            GameWorld1.select = 0;
+            GameWorld3.result = 0;
+            GameWorld3.timer = 60000;
+            GameWorld3.select = 0;
         }
     }   
 }

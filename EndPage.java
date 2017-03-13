@@ -23,8 +23,6 @@ public class EndPage extends World
     }
     
     public void act() {
-        showText("                                 " + GameWorld1.result, 400, 135);
-        showText("                                 " + GameWorld2.result, 400, 210);
-        showText("                                 " + GameWorld3.result, 400, 285);
+        showText("          " + GameWorld1.result, 400, 210);
     }
 }

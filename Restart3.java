@@ -21,6 +21,9 @@ public class Restart3 extends Button
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new GameWorld3());
+            GameWorld3.result = 0;
+            GameWorld3.timer = 240000;
+            GameWorld3.select = 0;
         }
     } 
 }
