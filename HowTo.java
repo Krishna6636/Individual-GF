@@ -1,27 +1,26 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class N1 here.
+ * Write a description of class HowTo here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class N1 extends Back
+public class HowTo extends Button
 {
     /**
-     * Act - do whatever the N1 wants to do. This method is called whenever
+     * Act - do whatever the HowTo wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
 
-    public N1() {
-        getImage().scale(100,60);
+    public HowTo() {
+        getImage().scale(150,150);
     }
     
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)) {
-            Greenfoot.setWorld(new EndPage());
-            Greenfoot.playSound("win.wav");
+            Greenfoot.setWorld(new HowToPlay());
         }
-    }    
+    }
 }

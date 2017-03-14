@@ -24,6 +24,7 @@ public class Leaf extends Apple
         
         if(isTouching(Boy.class)) {
             Greenfoot.setWorld(new EndPage());
+            Greenfoot.playSound("win.wav");
             //MyWorld.updateScore(point); 
         }
         else if(isAtEdge()) {

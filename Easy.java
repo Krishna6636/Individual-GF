@@ -16,9 +16,11 @@ public class Easy extends Level
     public Easy() {
         getImage().scale(220,60);
     }
+    
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)) {
+            StartPage.sound.stop();
             Greenfoot.setWorld(new GameWorld1());
         }
     }    

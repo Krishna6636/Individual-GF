@@ -72,6 +72,7 @@ public class Boy extends Actor
        if(getY()>getWorld().getHeight()-2) {
            getWorld().removeObject(this);
            Greenfoot.setWorld(new EndPage());
+           Greenfoot.playSound("win.wav");
        } 
     }
     

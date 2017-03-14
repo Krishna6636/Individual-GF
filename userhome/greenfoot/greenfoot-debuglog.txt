@@ -1,12 +1,12 @@
-Greenfoot run started: Mon Mar 13 22:00:01 ICT 2017
+Greenfoot run started: Tue Mar 14 20:49:02 ICT 2017
 Greenfoot version: 3.0.4
 Java version 1.8.0_92
 Virtual machine: Java HotSpot(TM) Client VM 25.92-b14 (Oracle Corporation)
 Running on: Windows 7 6.1 (x86)
 Java Home: D:\AppsDownloads\Greenfoot-windows-304\greenfoot\jdk\jre
 ----
-Opening project: D:\Project\Krit\Folder\Education\University\CSC105\IndiPro
-1489417221333: Listening for JDWP connection on address: javadebug
+Opening project: D:\Project\Krit\Folder\Education\University\CSC105\GF Individual Project\IndiPro
+1489499355639: Listening for JDWP connection on address: javadebug
 Connected to debug VM via dt_shmem transport...
 Communication with debug VM fully established.
 An unexpected exception occurred:

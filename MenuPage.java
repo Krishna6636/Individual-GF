@@ -8,7 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MenuPage extends World
 {
-
+    
+    
     /**
      * Constructor for objects of class MenuPage.
      * 
@@ -23,4 +24,6 @@ public class MenuPage extends World
         addObject(new B1(), 50, 30);
         addObject(new MenuBoy(), getWidth()-350, getHeight()-80);
     }
+    
+    
 }

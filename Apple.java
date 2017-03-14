@@ -24,9 +24,15 @@ public class Apple extends Actor
         
         if(isTouching(Boy.class)) {
             getWorld().removeObject(this);
+            Greenfoot.playSound("eat.wav");
+
             GameWorld1.result++;
             GameWorld2.result++;
             GameWorld3.result++;
+            
+            if(GameWorld1.result == 70) {
+                Greenfoot.setWorld(new YouWin());
+            }
         }
         else if(isAtEdge()) {
             getWorld().removeObject(this);
