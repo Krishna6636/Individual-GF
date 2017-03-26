@@ -14,7 +14,11 @@ public class Start extends Button
      */
     
     public Start(){
+<<<<<<< HEAD
         getImage().scale(300,100);
+=======
+        getImage().scale(250,100);
+>>>>>>> refs/remotes/origin/Feauture_prptri
     }
     
     public void act() 
