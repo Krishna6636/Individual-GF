@@ -14,7 +14,7 @@ public class HowTo extends Button
      */
 
     public HowTo() {
-        getImage().scale(250,100);
+        getImage().scale(300,50);
     }
     
     public void act() 
