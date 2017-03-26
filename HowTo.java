@@ -14,7 +14,11 @@ public class HowTo extends Button
      */
 
     public HowTo() {
+<<<<<<< HEAD
+        getImage().scale(300,100);
+=======
         getImage().scale(250,100);
+>>>>>>> refs/remotes/origin/Feauture_prptri
     }
     
     public void act() 
