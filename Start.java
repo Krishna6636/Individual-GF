@@ -14,7 +14,7 @@ public class Start extends Button
      */
     
     public Start(){
-        getImage().scale(150,150);
+        getImage().scale(300,100);
     }
     
     public void act() 
