@@ -45,9 +45,13 @@ public class GameWorld2 extends World
     
     public void fallTime() {
         time++;
-        if(time == 60){
-            addObject(new Apple(), Greenfoot.getRandomNumber(600), 0);
-            addObject(new AppG(), Greenfoot.getRandomNumber(300), 0);
+        if(time == 80){
+            int x = Greenfoot.getRandomNumber(600);
+            int y = Greenfoot.getRandomNumber(300);
+            if (x - y >= 130 || y - x >= 130) {
+            addObject(new Apple(), x, 0);
+            addObject(new AppG(), y, 0);
+            }
             time = 0;
         }
     }
