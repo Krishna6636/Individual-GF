@@ -22,6 +22,7 @@ public class Easy extends Level
         if(Greenfoot.mouseClicked(this)) {
             StartPage.sound.stop();
             Greenfoot.setWorld(new GameWorld1());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }    
 }

@@ -21,6 +21,7 @@ public class B1 extends Back
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new StartPage());
+            Greenfoot.playSound("Mousclik.wav");
         }
     } 
 }

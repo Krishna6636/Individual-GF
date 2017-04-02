@@ -24,6 +24,7 @@ public class Restart2 extends Button
             GameWorld2.result = 0;
             GameWorld2.timer = 240000;
             GameWorld2.select = 0;
+            Greenfoot.playSound("Mousclik.wav");
         }
     } 
 }

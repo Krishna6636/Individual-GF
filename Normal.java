@@ -22,6 +22,7 @@ public class Normal extends Level
         if(Greenfoot.mouseClicked(this)) {
             StartPage.sound.stop();
             Greenfoot.setWorld(new GameWorld2());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }    
 }

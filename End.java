@@ -21,6 +21,7 @@ public class End extends Button
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new StartPage());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }   
 }

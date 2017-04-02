@@ -22,6 +22,7 @@ public class Hard extends Level
         if(Greenfoot.mouseClicked(this)) {
             StartPage.sound.stop();
             Greenfoot.setWorld(new GameWorld3());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }    
 }
