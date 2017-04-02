@@ -14,13 +14,14 @@ public class B2 extends Back
      */
 
     public B2() {
-        getImage().scale(100,60);
+        getImage().scale(130,40);
     }
     
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new MenuPage());
+            Greenfoot.playSound("Mousclik.wav");
             StartPage.sound.play();
         }
     }  
