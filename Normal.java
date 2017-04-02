@@ -14,7 +14,7 @@ public class Normal extends Level
      */
     
     public Normal() {
-        getImage().scale(220,60);
+        getImage().scale(220,80);
     }
     
     public void act() 

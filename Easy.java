@@ -14,7 +14,7 @@ public class Easy extends Level
      */
     
     public Easy() {
-        getImage().scale(220,60);
+        getImage().scale(220,80);
     }
     
     public void act() 

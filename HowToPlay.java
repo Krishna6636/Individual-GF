@@ -16,7 +16,16 @@ public class HowToPlay extends World
     public HowToPlay()
     {    
         super(800, 600, 1); 
-        
-        addObject(new B1(), 50, 30);
+
+        addObject(new B1(), 69, 22);
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
     }
 }

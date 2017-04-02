@@ -14,7 +14,7 @@ public class B1 extends Back
      */
 
     public B1() {
-        getImage().scale(100,60);
+        getImage().scale(130,40);
     }
     
     public void act() 

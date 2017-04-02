@@ -14,7 +14,7 @@ public class Hard extends Level
      */
     
     public Hard() {
-        getImage().scale(220,60);
+        getImage().scale(220,80);
     }
     
     public void act() 

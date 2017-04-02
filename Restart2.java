@@ -14,7 +14,7 @@ public class Restart2 extends Button
      */
 
     public Restart2() {
-        getImage().scale(80,80);
+        getImage().scale(200,80);
     }
     
     public void act() 
