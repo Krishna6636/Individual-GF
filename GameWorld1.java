@@ -33,6 +33,7 @@ public class GameWorld1 extends World
         addObject(new N1(), 750, 30);
         addObject(new B2(), 50, 30);
         addObject(new Restart1(), 50, 550);
+        addObject(new Pause(), 25, 75);
 
         time = 0;
     }

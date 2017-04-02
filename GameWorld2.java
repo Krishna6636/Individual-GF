@@ -33,7 +33,8 @@ public class GameWorld2 extends World
         addObject(new C2(), getWidth()-70, getHeight()-385);
         addObject(new Jump(), getWidth()-350, getHeight()-300);
         addObject(new Jump(), getWidth()-550, getHeight()-470);
-
+        addObject(new Pause(), 25, 75);
+        
         time = 0;
     }
     

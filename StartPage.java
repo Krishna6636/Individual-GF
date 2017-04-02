@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class StartPage extends World
 {
-    static GreenfootSound sound = new GreenfootSound("gameplay1.mp3");
+    static GreenfootSound sound = new GreenfootSound("gameplay1.wav");
     
     /**
      * Constructor for objects of class StartPage.
@@ -21,14 +21,14 @@ public class StartPage extends World
         prepare();
         
         addObject(new MenuBoy(), getWidth()-350, getHeight()-80);
-        addObject(new Start(), 300, 350);
-        addObject(new HowTo(), 500, 350);
+        addObject(new Start(), getWidth()/2, 260);
+        addObject(new HowTo(), getWidth()/2, 390);
         
     }
     
     public void prepare(){
         Title title = new Title();
-        addObject(title, 400, 300);
+        addObject(title, getWidth()/2, 90);
     }
     
     boolean play = false;

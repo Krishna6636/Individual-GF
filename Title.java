@@ -12,6 +12,9 @@ public class Title extends Actor
      * Act - do whatever the Title wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Title() {
+        getImage().scale(500,150);
+    }
     public void act() 
     {
         // Add your action code here.
