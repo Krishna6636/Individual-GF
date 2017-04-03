@@ -30,7 +30,7 @@ public class Apple extends Actor
             GameWorld2.result++;
             GameWorld3.result++;
             
-            if(GameWorld1.result == 70) {
+            if(GameWorld1.result == 60) {
                 Greenfoot.setWorld(new YouWin());
             }
         }

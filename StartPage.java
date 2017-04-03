@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class StartPage extends World
 {
-    static GreenfootSound sound = new GreenfootSound("gameplay1.mp3");
+    static GreenfootSound sound = new GreenfootSound("gameplay1.wav");
     
     /**
      * Constructor for objects of class StartPage.

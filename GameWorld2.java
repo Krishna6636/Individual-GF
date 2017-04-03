@@ -33,7 +33,8 @@ public class GameWorld2 extends World
         addObject(new C2(), getWidth()-70, getHeight()-385);
         addObject(new Jump(), getWidth()-350, getHeight()-300);
         addObject(new Jump(), getWidth()-550, getHeight()-470);
-
+        addObject(new Pause(), 25, 75);
+        
         time = 0;
     }
     
@@ -45,9 +46,13 @@ public class GameWorld2 extends World
     
     public void fallTime() {
         time++;
-        if(time == 60){
-            addObject(new Apple(), Greenfoot.getRandomNumber(600), 0);
-            addObject(new AppG(), Greenfoot.getRandomNumber(300), 0);
+        if(time == 80){
+            int x = Greenfoot.getRandomNumber(600);
+            int y = Greenfoot.getRandomNumber(300);
+            if (x - y >= 130 || y - x >= 130) {
+            addObject(new Apple(), x, 0);
+            addObject(new AppG(), y, 0);
+            }
             time = 0;
         }
     }
