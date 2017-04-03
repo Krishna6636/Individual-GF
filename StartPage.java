@@ -16,6 +16,7 @@ public class StartPage extends World
      */
     public StartPage()
     {    
+         // Create a new world for front start page with 800x600 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
         
         prepare();
@@ -24,6 +25,7 @@ public class StartPage extends World
         addObject(new Start(), getWidth()/2, 260);
         addObject(new HowTo(), getWidth()/2, 390);
         
+
     }
     
     public void prepare(){
@@ -34,6 +36,7 @@ public class StartPage extends World
     boolean play = false;
     public void act()
     {
+        //play sound correctly
         if(!play) {
             sound.play();
             play = true;

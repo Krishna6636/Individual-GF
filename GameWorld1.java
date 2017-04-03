@@ -23,6 +23,7 @@ public class GameWorld1 extends World
     
     public GameWorld1()
     {    
+         // Create a GameWorld1 for Easy Level with 800x600 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
         
         addObject(new Boy(), getWidth()-700, getHeight()-232);
@@ -31,9 +32,7 @@ public class GameWorld1 extends World
         addObject(new Jump(), getWidth()-350, getHeight()-300);
         addObject(new Jump(), getWidth()-550, getHeight()-470);
         addObject(new N1(), 750, 30);
-        addObject(new B2(), 50, 30);
-        addObject(new Restart1(), 50, 550);
-        addObject(new Pause(), 25, 75);
+        addObject(new B2(), 65, 20);
         addObject(new Restart1(), 99, 562);
 
         time = 0;
@@ -46,6 +45,7 @@ public class GameWorld1 extends World
     }
     
     public void fallTime() {
+        //randomly falling of Apple
         time++;
         if(time == 60){
             addObject(new Apple(), Greenfoot.getRandomNumber(600), 0);
@@ -54,10 +54,11 @@ public class GameWorld1 extends World
     }
     
     public void scoring() {
+        //scoring and timer
         showText("Score : " + result, 650, 20);
         
         for(int i=35; i>0; i--) {
-            showText("Time : " + (int)(timer/2000), 150, 20);
+            showText("Time : " + (int)(timer/2000), 180, 20);
             timer--;
         }
         
