@@ -34,6 +34,7 @@ public class Menu extends Button
             GameWorld3.result = 0;
             GameWorld3.timer = 240000;
             GameWorld3.select = 0;
+            Greenfoot.playSound("Mousclik.wav");
         }
     }   
 }

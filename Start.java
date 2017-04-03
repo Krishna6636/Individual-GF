@@ -22,6 +22,7 @@ public class Start extends Button
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new MenuPage());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }   
 }

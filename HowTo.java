@@ -15,6 +15,9 @@ public class HowTo extends Button
 
     public HowTo() {
         getImage().scale(300,100);
+
+        getImage().scale(300,100);
+
         getImage().scale(250,100);
 
     }
@@ -23,6 +26,7 @@ public class HowTo extends Button
     {
         if(Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new HowToPlay());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }
 }

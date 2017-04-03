@@ -14,7 +14,7 @@ public class Hard extends Level
      */
     
     public Hard() {
-        getImage().scale(220,60);
+        getImage().scale(220,80);
     }
     
     public void act() 
@@ -22,6 +22,7 @@ public class Hard extends Level
         if(Greenfoot.mouseClicked(this)) {
             StartPage.sound.stop();
             Greenfoot.setWorld(new GameWorld3());
+            Greenfoot.playSound("Mousclik.wav");
         }
     }    
 }

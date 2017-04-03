@@ -14,7 +14,7 @@ public class Restart3 extends Button
      */
 
     public Restart3() {
-        getImage().scale(80,80);
+        getImage().scale(200,80);
     }
     
     public void act() 
@@ -24,6 +24,7 @@ public class Restart3 extends Button
             GameWorld3.result = 0;
             GameWorld3.timer = 240000;
             GameWorld3.select = 0;
+            Greenfoot.playSound("Mousclik.wav");
         }
     } 
 }

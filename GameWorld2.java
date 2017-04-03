@@ -27,7 +27,7 @@ public class GameWorld2 extends World
         
         addObject(new N1(), 750, 30);
         addObject(new B2(), 50, 30);
-        addObject(new Restart2(), 50, 550);
+        addObject(new Restart2(), 99, 562);
         addObject(new Boy(), getWidth()-700, getHeight()-232);
         addObject(new C1(), getWidth()-740, getHeight()-115);
         addObject(new C2(), getWidth()-70, getHeight()-385);
