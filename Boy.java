@@ -25,6 +25,7 @@ public class Boy extends Actor
        checkKeyPress();
        checkSkip();
        checkOnGround();
+       
     }
     
     public void checkKeyPress() {
@@ -76,7 +77,7 @@ public class Boy extends Actor
        } 
     }
     
-    public void checkSkip(){
+    public void checkSkip(){ //check jump acroos to other side
         int y = getImage().getHeight()/2;
         Jump ju = (Jump)getOneObjectAtOffset(0, y, Jump.class);
         if(ju!=null){

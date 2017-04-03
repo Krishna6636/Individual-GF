@@ -15,9 +15,10 @@ public class HowToPlay extends World
      */
     public HowToPlay()
     {    
+        // Create a new world for how to play the game page with 800x600 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
 
-        addObject(new B1(), 69, 22);
+        addObject(new B1(), 69, 22); //back to menu page
         prepare();
     }
 

@@ -23,17 +23,17 @@ public class GameWorld2 extends World
     
     public GameWorld2()
     {    
+         // Create a GameWorld2 for Normal Level with 800x600 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
         
         addObject(new N1(), 750, 30);
-        addObject(new B2(), 50, 30);
+        addObject(new B2(), 65, 20);
         addObject(new Restart2(), 99, 562);
         addObject(new Boy(), getWidth()-700, getHeight()-232);
         addObject(new C1(), getWidth()-740, getHeight()-115);
         addObject(new C2(), getWidth()-70, getHeight()-385);
         addObject(new Jump(), getWidth()-350, getHeight()-300);
         addObject(new Jump(), getWidth()-550, getHeight()-470);
-        addObject(new Pause(), 25, 75);
         
         time = 0;
     }
@@ -45,6 +45,7 @@ public class GameWorld2 extends World
     }
     
     public void fallTime() {
+        //randomly falling Apple and Apple with poison
         time++;
         if(time == 80){
             int x = Greenfoot.getRandomNumber(600);
@@ -61,7 +62,7 @@ public class GameWorld2 extends World
         showText("Score : " + result, 650, 20);
         
         for(int i=35; i>0; i--) {
-            showText("Time : " + (int)(timer/2000), 150, 20);
+            showText("Time : " + (int)(timer/2000), 180, 20);
             timer--;
         }
         
